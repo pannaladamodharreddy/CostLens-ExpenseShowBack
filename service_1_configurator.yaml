@@ -1,0 +1,28 @@
+service-name: AWS_Redshft
+contact-email: damoder@gmail.com
+allocation-model: USAGE
+metric-measure: memory
+metric-units: [PB,GB,MB]
+spend-cadence: DAILY
+mapping-source:
+    type: API
+    filename: ""
+    api-endpoint-token: "https://api-endpoint"
+    api-search-command: "If Report is to be searched using filter"
+    api-endpoint-data: "https://getData"
+    secret-name : "apiAuthCredentialsAWS_Redshift"
+usage-source:
+    type: File
+    filename: "s3:/invoices2022/awsinvoices/Student_Account_Usage/"
+    api-endpoint-token: ""
+    api-search-command: ""
+    api-endpoint-data: ""
+    secret-name : ""
+spend-source:
+    type: Database
+    filename: ""
+    api-endpoint-token: ""
+    api-search-command: ""
+    api-endpoint-data: ""
+    secret-name : "getDatabaseCredentials"
+    table-name: "Spend_Data"
