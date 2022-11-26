@@ -1,0 +1,12 @@
+﻿Metric_Date,Cost_Center_ID,Usage_Metric_Units,Primary_Metric_Dimension,Secondary_Metric_Dimension,Service_Name
+9-Jan,10000,10,Product_Team_A,SubProduct_A_A,Test_Service_1
+10-Jan,10000,200,Product_Team_A,SubProduct_A_B,Test_Service_1
+11-Jan,10001,100,Product_Team_B,,Test_Service_1
+12-Jan,10002,100,Product_Team_C,,Test_Service_1
+13-Jan,10003,50,Product_Team_D,,Test_Service_1
+14-Jan,10004,60,Product_Team_E,,Test_Service_1
+15-Jan,10005,800,Product_Team_F,,Test_Service_1
+16-Jan,10006,20,Product_Team_G,,Test_Service_1
+17-Jan,10007,2000,Product_Team_H,,Test_Service_1
+18-Jan,10008,99,Product_Team_I,SubProduct_I_A,Test_Service_1
+19-Jan,10009,100,Product_Team_I,SubProduct_I_B,Test_Service_1

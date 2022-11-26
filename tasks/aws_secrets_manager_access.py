@@ -16,13 +16,13 @@ class AWSSecretsManagerAccess():
             service_name='secretsmanager',
             aws_access_key_id='AKIAXRU37AQXMAXCLTO3',
             aws_secret_access_key='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',
-            region_name="us-east-1"
+            region_name='us-east-1'
         )
 
-    def get_splunk_secret_creds(self, secret_name=None):
+    def get_secret_creds(self, secret_name=None):
         """Fetch Splunk Creds from AWS Secrets Manager"""
 
-        secret_name = "showbackcosts"
+        secret_name = "resdhift-dev"
         logging.info("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         logging.info(self.client)
         try:
@@ -37,5 +37,5 @@ class AWSSecretsManagerAccess():
 
 secrets_manager_instance = AWSSecretsManagerAccess()
 splunk_secret_creds = secrets_manager_instance.get_splunk_secret_creds(
-        "showbackcosts")
+        "resdhift-dev")
 print(splunk_secret_creds)

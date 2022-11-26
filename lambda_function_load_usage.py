@@ -3,6 +3,7 @@ import urllib.parse
 import boto3
 import json
 import yaml
+import csv
 print('Loading function')
 
 s3 = boto3.client('s3')
@@ -19,7 +20,7 @@ def lambda_handler(event, context):
         csv_file = s3.get_object(Bucket=bucket, Key=key)
         s3_resource = boto3.resource('s3')
         s3_object = s3_resource.Object(bucket,key)
-        data = s3_object.get()['Body'].read().decode(''utf-8).splitlines()
+        data = s3_object.get()['Body'].read().decode('utf-8').splitlines()
         values = csv.reader(data)
         # Skip the headers from the values of CSV
         headers = next(values)
