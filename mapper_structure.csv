@@ -1,0 +1,12 @@
+﻿primary_metric_dimension,secondary_metric_dimension,cost_center_id,account_id
+Product_Team_A,SubProduct_A_A,10000,
+Product_Team_A,SubProduct_A_B,10000,
+Product_Team_B,,10001,
+Product_Team_C,,10002,
+Product_Team_D,,10003,
+Product_Team_E,,10004,
+Product_Team_F,,10005,
+Product_Team_G,,10006,
+Product_Team_H,,10007,
+Product_Team_I,SubProduct_I_A,10008,
+Product_Team_I,SubProduct_I_B,10009,

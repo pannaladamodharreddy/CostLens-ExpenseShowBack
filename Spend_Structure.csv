@@ -1,0 +1,13 @@
+﻿Metric_Date,Spend,Primary_Metric_Dimension,Secondary_Metric_Dimension,Account_ID,Service_Name
+9-Jan,1000,Product_Team_A,SubProduct_A_A,2090909,Test_Service_1
+10-Jan,2000,Product_Team_A,SubProduct_A_B,2090910,Test_Service_1
+11-Jan,2000,Product_Team_B,,2090911,Test_Service_1
+12-Jan,30000,Product_Team_C,,2090912,Test_Service_1
+13-Jan,6000,Product_Team_D,,2090913,Test_Service_1
+14-Jan,1000,Product_Team_E,,2090914,Test_Service_1
+15-Jan,2500,Product_Team_F,,2090915,Test_Service_1
+16-Jan,1000,Product_Team_G,,2090916,Test_Service_1
+17-Jan,2500,Product_Team_H,,2090917,Test_Service_1
+18-Jan,3000,Product_Team_I,SubProduct_I_A,2090918,Test_Service_1
+19-Jan,2500,Product_Team_I,SubProduct_I_B,2090919,Test_Service_1
+,,,,,

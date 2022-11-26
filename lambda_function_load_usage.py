@@ -3,6 +3,7 @@ import urllib.parse
 import boto3
 import json
 import yaml
+import csv
 print('Loading function')
 
 s3 = boto3.client('s3')
