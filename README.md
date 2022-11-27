@@ -1,7 +1,6 @@
-DATA ENGINEERING PROJECT -  Cost Lens for shared services cost show back
+****DATA ENGINEERING PROJECT -  Cost Lens for shared services cost show back
 
-(END to END flow performing ELT to calculate show back costs for several shared services)
-
+(END to END flow performing ELT to calculate show back costs for several shared services)****
 
 An ETL Data pipeline which processes the shared services (Public or Private (On Prem) Cloud services) Spend/Usage Data
 
@@ -11,4 +10,3 @@ Thus, we can hold teams accountable by sharing the cost show back and after prov
 Tools Used : Airflow, AWS Lambda Functions, S3, Redshift for warehousing, Tableau for visualization
 
 ![image](https://user-images.githubusercontent.com/32167301/204116916-e62ff43f-c986-4d47-ad94-573061e34ee5.png)
-
