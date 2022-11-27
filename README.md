@@ -10,3 +10,7 @@ Thus, we can hold teams accountable by sharing the cost show back and after prov
 **Tools Used** : Airflow, AWS Lambda Functions, S3, Redshift for warehousing, Tableau for visualization
 
 <img width="1000" alt="Screen Shot 2022-10-03 at 12 11 21 AM" src="https://user-images.githubusercontent.com/32167301/204117209-19fe494d-9c8f-434b-9723-1e116f7d8c15.png">
+
+Implemented Architecture followed to implement shared services costs showback
+
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/32167301/204126543-7c34f4c6-5eba-47a4-80e9-2844feca47c5.png">
