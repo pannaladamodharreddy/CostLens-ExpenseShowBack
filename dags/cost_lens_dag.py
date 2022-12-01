@@ -14,6 +14,7 @@ from tasks.aws_redshift_connector import RedShift_Connector
 from tasks.shared_services_mapping import shared_services_mapper
 from tasks.shared_services_usage import shared_service_usage
 from tasks.shared_services_spend import shared_service_spend
+from tasks.calculate_shared_services_showback_costs import shared_services_showback_costs
 
 
 # initializing the default arguments that we'll pass to our DAG
@@ -57,8 +58,8 @@ def validate_load_usage_data(shared_service_config_details):
 def validate_load_spend_data(shared_service_config_details):
     shared_service_spend(shared_service_config_details)
 
-def calculate_showback_costs():
-    pass
+def calculate_showback_costs(shared_service_config_details):
+    shared_services_showback_costs(shared_service_config_details)
 
 
 load_config = PythonOperator(
